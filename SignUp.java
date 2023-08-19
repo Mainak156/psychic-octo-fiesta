@@ -1,12 +1,9 @@
 package com.mainaksen.airestaurant;
 
 import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Toolkit;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Arrays;
-import javax.swing.JFrame;
 
 
 
@@ -20,14 +17,7 @@ public class SignUp extends javax.swing.JFrame {
     FileWriter fw;
     
     
-    public SignUp() {
-        
-        //frame design
-        Dimension scrnsize= Toolkit.getDefaultToolkit().getScreenSize();
-        setSize((int)scrnsize.getWidth(), (int)scrnsize.getHeight());
-        setResizable(false);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLocationRelativeTo(null);       
+    public SignUp() {      
         
         initComponents();
         
